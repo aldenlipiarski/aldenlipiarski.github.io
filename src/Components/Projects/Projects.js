@@ -18,3 +18,4 @@ function Projects() {
         </Section>
     )
 }
+export default Projects;

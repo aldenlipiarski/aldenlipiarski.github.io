@@ -5,7 +5,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
-const resumeLink = "https://docs.google.com/document/d/1f7-3_0RXQ3UaAVaRtZdDi7a-FJwlgfXaJqwiaFu_GFA/edit?usp=sharing"
+const resumeLink = "https://docs.google.com/document/d/1f7-3_0RXQ3UaAVaRtZdDi7a-FJwlgfXaJqwiaFu_GFA/edit?usp=drive_link"
 
 function Resume() {
     const [width, setWidth] = useState(1200);
